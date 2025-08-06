@@ -1,3 +1,13 @@
+# What Is This Fork?
+As you might know the oficial version of this lib in luvit is outdated, so i made this fork and updated it.
+If you want to install it from this source add this in your `package.lua`
+```lua
+dependencies = {
+      "alekssandher/discordia-slash"
+    }
+```
+or execute `lit install alekssandher/discordia-slash`
+
 # discordia-slash
 **[Discordia](https://github.com/SinisterRectus/Discordia) 2.0 extension for [slash commands](https://discord.com/developers/docs/interactions/slash-commands).**
 
