@@ -1,5 +1,6 @@
 # What Is This Fork?
-As you might know the oficial version of this lib in luvit is outdated, so i made this fork and updated it.
+As you might know, the oficial version of this lib in luvit is outdated, so i made this fork and updated it.
+
 If you want to install it from this source add this in your `package.lua`
 ```lua
 dependencies = {
