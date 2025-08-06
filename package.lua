@@ -1,5 +1,5 @@
 return {
-  name = "Alekssandher/discordia-slash",
+  name = "alekssandher/discordia-slash",
   version = "2.0.0",
   description = "Slash command extension for Discordia (fork)",
   tags = { "discord", "bot", "discordia", "slash", "discordia slash fork", "discordia slash" },
