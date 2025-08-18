@@ -65,8 +65,8 @@ function Client:getGuildApplicationCommands(guild_id)
 	end
 end
 
-function Client:createGuildApplicationCommand(guild_id, id, payload)
-	local data, err = self._api:createGuildApplicationCommand(self._user._id, guild_id, id)
+function Client:createGuildApplicationCommand(guild_id, payload)
+	local data, err = self._api:createGuildApplicationCommand(self._user._id, guild_id, payload)
 
 	if data then
 		return ApplicationCommand(data, self)
